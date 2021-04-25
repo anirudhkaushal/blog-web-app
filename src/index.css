@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Quicksand';
+  color: #333;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 4px solid #99d1eb;
+}
+
+.navbar h1 {
+  color: rgb(0, 0, 255);
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 7px;
+}
+
+.navbar a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 2px solid #99d1eb;
+}
+
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.blog-preview h2 {
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+
+.blog-preview a {
+  text-decoration: none;
+}
+
+/* blog-details-page */
+.blog-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-decoration-line: underline;
+}
+
+.blog-details div {
+  margin: 20px 0;
+  text-align: justify;
+  font-weight: normal;
+}
+
+.blog-details p {
+  font-size: 17px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.blog-details button {
+  background-color: blue;
+  color: #fff;
+  border: 0;
+  padding: 7px;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* create new blog form */
+
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label {
+  text-align: left;
+  display: block;
+  font-weight: normal;
+}
+
+.create h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  text-decoration-line: underline;
+}
+
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 2px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.create button {
+  background-color: blue;
+  color: #fff;
+  border: 0;
+  padding: 7px;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.not-found p {
+  margin-top: 10px;
+  margin-bottom: 70px;
+  font-weight: normal;
+}
+.not-found a{
+  font-size: 20px;
+  color: blue;
+}
